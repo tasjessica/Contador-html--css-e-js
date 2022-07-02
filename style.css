@@ -1,7 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Kdam+Thmor+Pro&family=Oswald:wght@200&family=Source+Code+Pro&display=swap');
 
-* {
-    font-family: 'Open Sans', sans-serif;
+.titulo {
+    font-family: 'Oswald', sans-serif;
+}
+
+.texto {
+    font-family: 'Source Code Pro', monospace;
 }
 
 body {
@@ -10,6 +14,7 @@ body {
     justify-content: center;
     flex-direction: column;
     background-color: rgb(177, 225, 255);
+    margin-top: 190px;
 }
 
 button {
@@ -22,6 +27,11 @@ button {
     font-size: 16pt;
     font-weight: 600;
     text-align: center;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(253, 228, 228);
 }
 
 #counter {
