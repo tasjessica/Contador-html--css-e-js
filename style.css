@@ -31,16 +31,17 @@ button {
 }
 
 button:hover {
-    background-color: rgb(253, 228, 228);
+    background-color: rgb(226, 171, 171);
+    transition-duration: 1s;
 }
 
 #counter {
     display: flex;
 }
 
-#currentNumber {
+#numero {
     display: flex;
     align-items: center;
     margin: 0 20px;
-    font-size: 16pt;
+    font-size: 25pt;
 }
